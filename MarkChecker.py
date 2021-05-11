@@ -68,7 +68,7 @@ while run:
         c += 1
     
         print(f'\nCheck #{c}, as of {datetime.now().strftime("%H:%M:%S")}')
-        for key in xPath.keys():
+        for key in list(xPath):
             try:
                 check = checkMark(xPath[key])
 
