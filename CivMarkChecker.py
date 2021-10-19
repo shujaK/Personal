@@ -12,8 +12,8 @@ options.add_argument("--headless")
 browser = webdriver.Firefox(options=options)
 print('Webdriver connected\n\n---')
 
-UTORID = 'khwajash'
-PASSWORD = 'Sh1ng3ki123!'
+UTORID = ''
+PASSWORD = ''
 
 def gotoPage():
     browser.get("https://acorn.utoronto.ca/sws/#/history/academic")
